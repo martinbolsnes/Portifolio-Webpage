@@ -41,14 +41,13 @@ li a {
 li a {
   color: var(--nav-color);
   text-decoration: none;
-  padding: 20px;
   display: flex;
+  padding: 20px;
   align-items: center;
   justify-content: flex-end;
   font-size: var(--nav-font-size);
 }
 
 .fa-envelope {
-  font-size: 1.9rem;
-  margin-top: 7px;
+  font-size: 1.8rem;
 }
