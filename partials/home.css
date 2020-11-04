@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: "Anonymous Pro", monospace;
+  font-family: "Mr Dafoe", cursive;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}

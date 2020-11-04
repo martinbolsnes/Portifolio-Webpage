@@ -1,0 +1,54 @@
+.topnav {
+  color: var(--nav-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logo {
+  font-size: var(--logo-font-size);
+  font-family: "Mr Dafoe", cursive;
+}
+
+.topnav__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.topnav__logo--name {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: var(--nav-name-font-size);
+}
+
+.topnav__logo--name,
+li a {
+  font-family: "Poppins", sans-serif;
+}
+
+.topnav__list ul li {
+  display: inline-block;
+}
+
+li a {
+  color: var(--nav-color);
+  text-decoration: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--nav-font-size);
+}
+
+.fa-envelope {
+  font-size: 1.9rem;
+  margin-top: 7px;
+}

@@ -6,3 +6,7 @@
   --footer-color: #ffffff;
   --footer-font-size: 1.25rem;
 }
+
+body {
+  --background-color: #000000;
+}
