@@ -1,0 +1,19 @@
+footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__list--item .footer-a {
+  font-size: var(--footer-font-size);
+}
