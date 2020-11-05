@@ -16,4 +16,5 @@ footer {
 
 .footer__list--item .footer-a {
   font-size: var(--footer-font-size);
+  padding: 20px;
 }
