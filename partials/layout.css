@@ -1,0 +1,22 @@
+body {
+  --background-color: #000000;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main {
+  max-width: 1200px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-a:visited {
+  color: white;
+}
