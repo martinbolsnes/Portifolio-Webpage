@@ -222,8 +222,9 @@ li a {
 }
 
 @media (max-width: 800px) {
-  header {
+  .topnav {
     height: 80px;
+    margin-left: 80px;
   }
 
   .topnav__logo {
@@ -244,8 +245,8 @@ li a {
 
   .logo {
     font-size: 2rem;
-    margin-left: 40px;
     margin-top: 45px;
+    margin-left: 10px;
   }
 
   .topnav__logo--name {

@@ -12,6 +12,8 @@ body {
   width: 100%;
   height: fit-content;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 body::-webkit-scrollbar {
@@ -66,16 +68,35 @@ main {
   }
 }
 
+.heroParagraph {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  animation: fade infinite 1s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  visibility: hidden;
+}
+
+.heroParagraph__text {
+  width: 60%;
+  margin-left: 100px;
+}
+
 .aboutMeBtn__container {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   animation: fade infinite 1s;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
   visibility: hidden;
 }
 
@@ -161,18 +182,6 @@ img {
   border: solid 2px white;
 }
 
-/* .img__container1 {
-  background-image: url(/img/Skjermbilde\ 2021-05-26\ kl.\ 12.10.41.png);
-}
-
-.img__container2 {
-  background-image: url(/img/Skjermbilde\ 2021-06-01\ kl.\ 14.11.25.png);
-}
-
-.img__container3 {
-  background-image: url(/img/Skjermbilde\ 2021-06-01\ kl.\ 14.12.21.png);
-} */
-
 .projectsLinks {
   display: flex;
   flex-direction: row;
@@ -181,23 +190,131 @@ img {
 }
 
 @media (max-width: 1024px) {
-  .hero__text {
-    font-size: 1.5rem;
+  .line1,
+  .line2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .aboutMeBtn__container {
+    margin-top: 350px;
+  }
+
+  .projects__container {
+    margin-top: 350px;
   }
 }
 
 @media (max-width: 800px) {
-  .hero__text {
-    font-size: 1.3rem;
+  .line1,
+  .line2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .hero__container,
+  .heroParagraph__text {
+    margin-left: 80px;
+  }
+
+  .aboutMeBtn__container {
+    margin-top: 300px;
+  }
+
+  .aboutMe__text {
+    font-size: 1.7rem;
+  }
+
+  .projects__container {
+    margin-top: 200px;
+  }
+
+  .img__container1,
+  .img__container2,
+  .img__container3 {
+    width: 65%;
+    height: 300px;
   }
 }
 
 @media (max-width: 500px) {
-  .hero__text {
-    font-size: 0.7rem;
+  .line1,
+  .line2 {
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
 
-  .hero__container {
+  .hero__container,
+  .heroParagraph__text {
     margin-left: 20px;
+  }
+
+  .heroParagraph__text {
+    width: 80%;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .aboutMeBtn__container {
+    margin-top: 200px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+  .fa-arrow-alt-circle-down {
+    font-size: 1.5rem;
+  }
+
+  .aboutMe__text {
+    width: 85%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .img__container1,
+  .img__container2,
+  .img__container3 {
+    width: 80%;
+    height: 200px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .iconify,
+  .fa-github {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .line1,
+  .line2 {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+
+  .aboutMeBtn__container {
+    margin-top: 100px;
+  }
+
+  .aboutMe__text {
+    font-size: 1.1rem;
+  }
+
+  .projects__container {
+    margin-top: 50px;
+  }
+
+  .img__container1,
+  .img__container2,
+  .img__container3 {
+    width: 85%;
+    height: 180px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 }
