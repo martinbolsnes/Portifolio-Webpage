@@ -6,6 +6,7 @@
     <meta name="description" content="This is my portifolio page">
     <link rel="stylesheet" href="partials/main.css">
     <script src="https://kit.fontawesome.com/aaba5ad25b.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Mr+Dafoe&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Portifolio - Martin Bolsønes</title>
 </head>
@@ -40,10 +41,78 @@
     </header>
     <main>
         <div class="hero__container">
-            <h1 class="hero__text">Hi, my name is Martin and I'm a front-end developer.</h1>
+            <h1 class="line1">Hi, my name is Martin</h1>
+            <h1 class="line2">and I'm a front-end developer.</h1>
         </div>
+        <div class="aboutMeBtn__container">
+            <h2>More about me</h2>
+            <a href="#aboutMe"><i class="far fa-arrow-alt-circle-down"></i></a>
+        </div>
+        <section id="aboutMe">
+            <div class="aboutMe__text">
+                <p>My name is Martin Bolsønes, I am 26 years old and grew up in Molde, a small town in 
+                    the northwest of Norway.<br> I am currently studying Front-end Development
+                    at Noroff in Oslo. After 1 year at Noroff I have worked with HTML, CSS and Javascript. <br>
+                    Take a look at some of the projects I have worked on.
+                </p>
+            </div>
+            <div class="projects__container">
+                <h2>My projects</h2>
+                <a href="#myProjects"><i class="far fa-arrow-alt-circle-down"></i></a>
+            </div>
+        </section>
+        <section id="myProjects">
+            <div class="card__container">
+                <div class="img__container1">
+                    <a href="https://project-exam1-971996.netlify.app/">
+                    <img src="img/Skjermbilde 2021-05-26 kl. 12.10.41.png">
+                </a>
+                </div>
+                    <h3>Project Exam spring 2021</h3>
+                    <div class="projectsLinks">
+                    <a href="https://github.com/martinbolsnes/projectExam1">
+                    <i class="fab fa-github"></i>
+                </a>
+                    <a href="https://project-exam1-971996.netlify.app/">
+                    <span class="iconify" data-icon="vscode-icons:file-type-netlify" data-inline="false"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="card__container">
+                <div class="img__container2">
+                    <a href="https://semester-project1-2a02d7.netlify.app/">
+                        <img src="img/Skjermbilde 2021-06-01 kl. 14.11.25.png">
+                    </a>
+                </div>
+                    <h3>Semester Project fall 2020</h3>
+                    <div class="projectsLinks">
+                    <a href="https://github.com/Noroff-Fagskole/oslo-feu-sem-project1-martinbolsnes">
+                    <i class="fab fa-github"></i>
+                </a>
+                    <a href="https://semester-project1-2a02d7.netlify.app/">
+                    <span class="iconify" data-icon="vscode-icons:file-type-netlify" data-inline="false"></span>
+                </a>
+                </div>
+            </div>
+            <div class="card__container">
+                <div class="img__container3">
+                    <a href="https://rainy-days-24eb19.netlify.app/">
+                        <img src="img/Skjermbilde 2021-06-01 kl. 14.12.21.png">
+                    </a>
+                </div>
+                    <h3>Course Assigment fall 2020</h3>
+                    <div class="projectsLinks">
+                        <a href="https://github.com/martinbolsnes/Rainydays">
+                    <i class="fab fa-github"></i>
+                </a>
+                    <a href="https://rainy-days-24eb19.netlify.app/">
+                    <span class="iconify" data-icon="vscode-icons:file-type-netlify" data-inline="false"></span>
+                </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <!-- <footer>
+    <footer>
         <ul class="footer__list">
             <li class="footer__list--item"><a class="footer-a" href="https://www.instagram.com/martinbolsnes/">instagram</a></li>
             <li class="footer__list--item"><a class="footer-a" href="https://www.facebook.com/martin.bolsnes">facebook</a></li>
@@ -51,6 +120,6 @@
             <li class="footer__list--item"><a class="footer-a" href="https://github.com/martinbolsnes">github</a></li>
             <li class="footer__list--item"><a class="footer-a" href="https://www.linkedin.com/in/martin-bols%C3%B8nes-5973941b5/">linkedin</a></li>
         </ul>
-    </footer> -->
+    </footer>
 </body>
 </html>
