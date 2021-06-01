@@ -10,6 +10,7 @@
   height: 100px;
   margin-left: 100px;
   margin-right: 100px;
+  z-index: 2;
 }
 
 .logo {
@@ -22,7 +23,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 20px;
 }
 
 .topnav__logo--name {
@@ -34,10 +34,6 @@
 .topnav__logo--name,
 li a {
   font-family: 'Poppins', sans-serif;
-}
-
-.topnav__list ul li {
-  display: inline-block;
 }
 
 .fa-envelope {
@@ -134,7 +130,6 @@ li a {
   padding: 10px 0;
   font-size: 1.5rem;
   background-color: black;
-  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .nav__list--item a {
@@ -143,23 +138,42 @@ li a {
   font-size: 1.3rem;
 }
 
-.nav__list--item a:hover {
-  color: var(--dandelion);
-}
-
-.hamburgerMenu__list--item a:hover {
-  color: var(--dandelion);
-}
-
-.hamburgerMenu .active {
-  color: var(--dandelion);
+.hamburgerMenu__list .hamburgerMenu__list--item {
+  padding: 15px;
+  margin-left: 20px;
+  position: relative;
 }
 
 .hamburgerMenu__list--item a {
   font-size: 1.4rem;
-  padding: 10px;
+  padding: 10px 10px;
   color: white;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.hamburgerMenu__list--item a::before {
+  border-bottom: solid 2px white;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hamburgerMenu__list--item a:hover::before {
+  width: 100%;
+  border-bottom: solid 2px white;
+  transition: 0.3s all linear;
+}
+
+.active {
+  border-bottom: solid 2px white;
+}
+
+.active:hover {
+  border-bottom: solid 2px transparent;
 }
 
 @media (max-width: 1440px) {
@@ -192,11 +206,7 @@ li a {
   }
 }
 
-@media (max-width: 900px) {
-  header {
-    height: 80px;
-  }
-
+@media (max-width: 1070px) {
   #menuToggle {
     display: block;
   }
@@ -211,6 +221,16 @@ li a {
   }
 }
 
+@media (max-width: 800px) {
+  header {
+    height: 80px;
+  }
+
+  .topnav__logo {
+    margin-top: 25px;
+  }
+}
+
 @media (max-width: 530px) {
   .topnav {
     height: 70px;
@@ -221,10 +241,12 @@ li a {
   .logo {
     font-size: 2rem;
     margin-left: 40px;
+    margin-top: 45px;
   }
 
   .topnav__logo--name {
-    display: none;
+    font-size: 0.7rem;
+    margin-top: 30px;
   }
 
   #menuToggle {
