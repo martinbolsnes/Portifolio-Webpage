@@ -229,6 +229,10 @@ li a {
   .topnav__logo {
     margin-top: 25px;
   }
+
+  #menuToggle {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 530px) {
@@ -252,6 +256,7 @@ li a {
   #menuToggle {
     height: 15px;
     width: 10px;
+    margin-top: 30px;
   }
 
   #menuToggle input:checked ~ ul {
