@@ -285,6 +285,10 @@ img {
   h2 {
     font-size: 1.1rem;
   }
+
+  .projects__container {
+    margin-top: 150px;
+  }
   .fa-arrow-alt-circle-down {
     font-size: 1.8rem;
   }
@@ -328,7 +332,7 @@ img {
   }
 
   .aboutMeBtn__container {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .aboutMe__text {
