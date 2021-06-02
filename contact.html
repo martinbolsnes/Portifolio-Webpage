@@ -44,6 +44,29 @@
         </div>
         </nav>
     </header>
+    <main>
+        <div class="contact__heading">
+            <h1>Contact me</h1>
+        </div>
+        <div class="contactForm__container">
+            <form id="contactForm">
+                <label for="contact">Contact</label>
+                <input type="text" name="contact" id="contact">
+                <p class="formError contactError">Contact must be longer than 5 characters</p>
+                <label for="fullName">Name</label>
+                <input type="text" name="fullName" id="fullName">
+                <p class="formError fullNameError">Name must be longer than 5 characters</p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <p class="formError emailError">Please enter a valid email</p>
+                <label for="message">Message...</label> 
+                <textarea name="message" id="message"></textarea>
+                <p class="formError messageError">Message must be longer than 15 characters</p>
+        
+                <input type="submit" id="submitBtn" value="Submit"></input>
+            </form>
+        </div> 
+    </main>
     <footer>
         <ul class="footer__list">
             <li class="footer__list--item"><a class="footer-a" href="https://www.instagram.com/martinbolsnes/">instagram</a></li>
@@ -53,5 +76,6 @@
             <li class="footer__list--item"><a class="footer-a" href="https://www.linkedin.com/in/martin-bols%C3%B8nes-5973941b5/">linkedin</a></li>
         </ul>
     </footer>
+    <script src="js/contact.js"></script>
 </body>
 </html>
