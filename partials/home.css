@@ -10,6 +10,7 @@ body {
   font-family: 'Mr Dafoe', cursive;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+  min-height: 100vh;
   height: fit-content;
   overflow-x: hidden;
   display: flex;
