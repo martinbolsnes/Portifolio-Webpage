@@ -92,6 +92,7 @@ textarea {
 @media (max-width: 500px) {
   input {
     width: 80%;
+    font-size: 1.2rem;
   }
 
   #message {
