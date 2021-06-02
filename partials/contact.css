@@ -79,6 +79,12 @@ textarea {
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .contact__heading {
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 800px) {
   input {
     width: 60%;
