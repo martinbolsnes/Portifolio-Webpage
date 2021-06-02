@@ -331,7 +331,7 @@ li a {
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
   #menuToggle input:checked ~ ul {
-    top: -1020px;
+    top: -820px;
   }
 
   .topnav__logo {
