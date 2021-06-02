@@ -312,9 +312,9 @@ img {
   }
 
   #toTopBtn {
-    display: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     right: 10px;
+    bottom: 25px;
     background-color: black;
     border-radius: 5px;
   }
