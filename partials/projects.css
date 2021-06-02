@@ -9,6 +9,10 @@
   margin-bottom: 50px;
 }
 
+.card__heading {
+  font-size: 1.7rem;
+}
+
 @media (max-width: 1024px) {
   .projects__heading {
     margin-top: 50px;
@@ -27,5 +31,9 @@
   .projects__heading {
     margin-top: 50px;
     font-size: 0.8rem;
+  }
+
+  .card__heading {
+    font-size: 1.3rem;
   }
 }
