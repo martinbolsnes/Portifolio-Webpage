@@ -102,4 +102,9 @@ textarea {
     width: 80%;
     margin-bottom: 100px;
   }
+
+  .contact__heading {
+    margin-top: 50px;
+    font-size: 0.8rem;
+  }
 }
