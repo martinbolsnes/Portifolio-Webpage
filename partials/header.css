@@ -1,16 +1,14 @@
 .topnav {
-  color: var(--nav-color);
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
-  z-index: 1;
 }
 
 .logo {
@@ -23,6 +21,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 100px;
 }
 
 .topnav__logo--name {
@@ -59,7 +58,6 @@ li a {
   position: absolute;
   cursor: pointer;
   opacity: 0;
-  z-index: 2;
   overflow: hidden;
   -webkit-touch-callout: none;
 }
@@ -137,6 +135,10 @@ li a {
   font-family: 'Poppins', sans-serif;
   padding: 0 15px;
   font-size: 1.3rem;
+}
+
+.hamburgerMenu {
+  margin-right: 100px;
 }
 
 .hamburgerMenu__list .hamburgerMenu__list--item {
@@ -239,7 +241,6 @@ li a {
 @media (max-width: 800px) {
   .topnav {
     height: 80px;
-    margin-left: 80px;
   }
 
   .topnav__logo {
@@ -296,11 +297,19 @@ li a {
   #menuToggle input:checked ~ ul {
     top: -450px;
   }
+
+  .topnav__logo {
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #menuToggle input:checked ~ ul {
     top: -550px;
+  }
+
+  .topnav__logo {
+    margin-left: 20px;
   }
 }
 
@@ -313,5 +322,9 @@ li a {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   #menuToggle input:checked ~ ul {
     top: -720px;
+  }
+
+  .topnav__logo {
+    margin-left: 20px;
   }
 }

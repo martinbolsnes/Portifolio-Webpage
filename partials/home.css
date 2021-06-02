@@ -15,10 +15,29 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+#toTopBtn:hover {
+  font-weight: bold;
 }
 
 main {
@@ -148,7 +167,7 @@ main {
 
 #myProjects {
   width: 100%;
-  margin-top: 250px;
+  margin-top: 300px;
   margin-bottom: 100px;
   height: fit-content;
   display: flex;
@@ -244,6 +263,10 @@ img {
     line-height: 2rem;
   }
 
+  .hero__container {
+    margin-top: 50px;
+  }
+
   .hero__container,
   .heroParagraph__text {
     margin-left: 20px;
@@ -286,6 +309,14 @@ img {
   .iconify,
   .fa-github {
     font-size: 2rem;
+  }
+
+  #toTopBtn {
+    display: none;
+    font-size: 0.8rem;
+    right: 10px;
+    background-color: black;
+    border-radius: 5px;
   }
 }
 
