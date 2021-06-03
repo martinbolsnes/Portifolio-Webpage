@@ -175,7 +175,7 @@ li a {
 }
 
 .hamburgerMenu__list--item a::before {
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px #3abcf1;
   content: '';
   position: absolute;
   width: 0;
@@ -186,12 +186,12 @@ li a {
 
 .hamburgerMenu__list--item a:hover::before {
   width: 100%;
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px #0ca3e2;
   transition: 0.3s all linear;
 }
 
 .active {
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px #0ca3e2;
 }
 
 .active:hover {
