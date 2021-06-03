@@ -263,8 +263,23 @@ img {
     line-height: 2rem;
   }
 
+  .line1 {
+    animation: typing1 1s steps(40, end) 0.5s 1 normal both;
+  }
+
+  .line2 {
+    animation: typing2 1s steps(40, end) 0.5s 1 normal both;
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+  }
+
   .hero__container {
     margin-top: 50px;
+  }
+
+  .heroParagraph {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
   }
 
   .hero__container,
@@ -280,6 +295,8 @@ img {
 
   .aboutMeBtn__container {
     margin-top: 200px;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
   }
 
   h2 {
