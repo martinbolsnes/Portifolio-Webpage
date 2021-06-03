@@ -54,7 +54,7 @@ li a {
 }
 
 #menuToggle a {
-  color: var(--white);
+  color: white;
 }
 
 #menuToggle input {
@@ -127,7 +127,13 @@ li a {
   list-style: none;
   border-top: none;
   text-align: center;
-  background-color: black;
+  background: rgb(33, 33, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(40, 40, 43, 1) 50%,
+    rgba(33, 33, 33, 1) 100%
+  );
 }
 
 .nav__list--item {
@@ -135,7 +141,13 @@ li a {
   justify-content: space-between;
   padding: 10px 0;
   font-size: 1.5rem;
-  background-color: black;
+  background: rgb(33, 33, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(40, 40, 43, 1) 50%,
+    rgba(33, 33, 33, 1) 100%
+  );
 }
 
 .nav__list--item a {
