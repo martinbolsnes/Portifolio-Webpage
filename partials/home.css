@@ -144,15 +144,19 @@ main {
   }
 }
 
+.fa-arrow-alt-circle-down {
+  color: #0ca3e2;
+}
+
 .fa-arrow-alt-circle-down,
 .fa-github {
   font-size: 3rem;
-  color: white;
   margin: 20px;
 }
 
 .iconify {
   font-size: 3rem;
+  color: white;
 }
 
 #aboutMe {
