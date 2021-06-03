@@ -254,9 +254,7 @@ img {
     margin-top: 200px;
   }
 
-  .img__container1,
-  .img__container2,
-  .img__container3 {
+  .img__container1 {
     width: 65%;
     height: 300px;
   }
@@ -322,9 +320,7 @@ img {
     line-height: 1.5rem;
   }
 
-  .img__container1,
-  .img__container2,
-  .img__container3 {
+  .img__container1 {
     width: 80%;
     height: 200px;
   }
@@ -366,9 +362,7 @@ img {
     margin-top: 50px;
   }
 
-  .img__container1,
-  .img__container2,
-  .img__container3 {
+  .img__container1 {
     width: 85%;
     height: 180px;
   }
