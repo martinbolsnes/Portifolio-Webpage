@@ -5,7 +5,13 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background: rgb(33, 33, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(40, 40, 43, 1) 50%,
+    rgba(33, 33, 33, 1) 100%
+  );
   font-family: 'Anonymous Pro', monospace;
   font-family: 'Mr Dafoe', cursive;
   font-family: 'Poppins', sans-serif;
@@ -61,13 +67,13 @@ main {
 }
 
 .line1 {
-  animation: typing1 2s steps(40, end) 0.5s 1 normal both;
+  animation: typing1 1.7s steps(40, end) 0.5s 1 normal both;
 }
 
 .line2 {
-  animation: typing2 2s steps(40, end) 0.5s 1 normal both;
-  -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
+  animation: typing2 1.7s steps(40, end) 0.5s 1 normal both;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 @keyframes typing1 {
@@ -193,13 +199,13 @@ img {
   object-position: top;
 }
 
-.img__container1,
-.img__container2,
-.img__container3 {
+.img__container {
   width: 60%;
   height: 350px;
   border-radius: 20px;
   border: solid 1px white;
+  -webkit-box-shadow: 0 0 5px #b3b3b3;
+  box-shadow: 0 0 5px #b3b3b3;
 }
 
 .projectsLinks {

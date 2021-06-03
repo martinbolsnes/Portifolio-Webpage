@@ -1,14 +1,7 @@
 :root {
   --logo-font-size: 3.125rem;
-  --nav-name-font-size: 0.875rem;
-  --nav-color: #ffffff;
-  --nav-font-size: 1.5rem;
-  --footer-color: #ffffff;
   --footer-font-size: 1rem;
-}
-
-body {
-  --background-color: #000000;
+  --background-color: #212121;
 }
 
 a {
