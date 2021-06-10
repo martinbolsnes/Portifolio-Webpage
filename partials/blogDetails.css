@@ -16,4 +16,18 @@
 
 .blog__heading {
   font-size: 1.8rem;
+  color: #0ca3e2;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .blogContent {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .blog__heading {
+    font-size: 1.5rem;
+  }
 }
