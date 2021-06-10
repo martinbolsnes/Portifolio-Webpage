@@ -66,6 +66,10 @@ main {
   line-height: 4.5rem;
 }
 
+.colorBlue {
+  color: #0ca3e2;
+}
+
 .line1 {
   animation: typing1 1.7s steps(40, end) 0.5s 1 normal both;
 }
