@@ -12,13 +12,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
-#contactForm {
+#contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 5px;
-  width: 70%;
+  width: 40%;
 }
 
 label {
@@ -27,7 +28,7 @@ label {
 }
 
 input {
-  width: 50%;
+  width: 100%;
   margin-bottom: 5px;
   height: 30px;
   border-radius: 5px;
@@ -41,7 +42,7 @@ textarea {
 
 #message {
   height: 270px;
-  width: 80%;
+  width: 100%;
   padding: 0;
   margin-bottom: 10px;
   border-radius: 5px;

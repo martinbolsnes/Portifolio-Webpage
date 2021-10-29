@@ -1,4 +1,4 @@
-const submit = document.getElementById('submitBtn');
+/* const submit = document.getElementById('submitBtn');
 const fullNameError = document.querySelector('.fullNameError');
 const contactError = document.querySelector('.contactError');
 const emailError = document.querySelector('.emailError');
@@ -53,3 +53,4 @@ function validateEmail(emailAddress) {
   const isEmailValid = emailExpression.test(emailAddress);
   return isEmailValid;
 }
+ */
